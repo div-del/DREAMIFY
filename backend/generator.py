@@ -84,10 +84,8 @@ class ImageGenerator:
                         wait_time = response_json["estimated_time"]
                         msg = f"Model is loading... waiting {wait_time} s"
                         print(msg, flush=True)
-                        # Identify strict loading state to user
-                        return None, msg
-                        # time.sleep(wait_time)
-                        # continue
+                        time.sleep(wait_time)
+                        continue
                     
                     else:
                         error_msg = f"Model {model_url} failed: {response.status_code} - {response.text}"
