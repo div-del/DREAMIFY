@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+.DS_Store
+node_modules/
+temp_frames/
+*.log
+*.txt
+cleanup.ps1
+debug_*.py
+test_token.py
