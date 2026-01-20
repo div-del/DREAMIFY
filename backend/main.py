@@ -1,8 +1,13 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
-from .generator import ImageGenerator
-from .video_generator import VideoGenerator
+try:
+    from .generator import ImageGenerator
+    from .video_generator import VideoGenerator
+except ImportError:
+    # Fallback for running script directly
+    from generator import ImageGenerator
+    from video_generator import VideoGenerator
 import uvicorn
 import os
 import sys
@@ -85,4 +90,4 @@ def generate_video(request: PromptRequest):
         raise HTTPException(status_code=500, detail=str(e))
 
 if __name__ == "__main__":
-    uvicorn.run("backend.main:app", host="127.0.0.1", port=8000, reload=True)
+    uvicorn.run("main:app", host="127.0.0.1", port=8000, reload=True)

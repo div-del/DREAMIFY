@@ -6,7 +6,10 @@ import random
 import traceback
 from pathlib import Path
 from PIL import Image
-from .generator import ImageGenerator
+try:
+    from .generator import ImageGenerator
+except ImportError:
+    from generator import ImageGenerator
 
 class VideoGenerator:
     def __init__(self):
