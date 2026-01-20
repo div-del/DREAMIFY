@@ -20,25 +20,25 @@ export function PromptInput({ onGenerate, isLoading }) {
             onSubmit={handleSubmit}
             className="w-full max-w-2xl mx-auto px-4"
         >
-            <div className="relative flex items-center bg-jungle-dark/40 backdrop-blur-md rounded-xl p-2 border border-biolum-green/20 box-shadow-lg shadow-biolum-green/10">
+            <div className="relative flex items-center gap-4 p-4 rounded-2xl bg-black/60 backdrop-blur-lg border-2 border-white/40">
                 <input
                     type="text"
                     value={prompt}
                     onChange={(e) => setPrompt(e.target.value)}
-                    placeholder="Describe your dream image..."
+                    placeholder="✨ Describe your dream GIF..."
                     disabled={isLoading}
-                    className="w-full bg-transparent border-none text-white placeholder-gray-400 focus:ring-0 px-4 py-3 text-lg outline-none"
+                    className="neon-input w-full rounded-xl px-6 py-5 text-xl"
                 />
                 <button
                     type="submit"
                     disabled={isLoading || !prompt.trim()}
-                    className="primary-btn rounded-xl px-6 py-3 flex items-center gap-2 min-w-[140px] justify-center ml-2"
+                    className="neon-button rounded-xl px-8 py-5 flex items-center gap-3 min-w-[180px] justify-center text-xl"
                 >
                     {isLoading ? (
-                        <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin" />
+                        <div className="w-7 h-7 border-3 border-white border-t-transparent rounded-full animate-spin" />
                     ) : (
                         <>
-                            <Wand2 size={20} />
+                            <Wand2 size={26} />
                             <span>Generate</span>
                         </>
                     )}
