@@ -53,7 +53,7 @@ git clone https://github.com/your-username/dreamify.git
 cd dreamify
 ```
 
-### ⚙️ 2. Backend Setup
+## ⚙️ 2. Backend Setup
 Navigate to the backend folder and set up the Python environment.
 
 ```bash
