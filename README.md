@@ -1,7 +1,9 @@
-# ✨ Dreamify 🎬
+## ✨ Dreamify 🎬
 
-> **Turn your dreams into animated GIFs using AI!**  
+> **Turn your dreams into animated GIFs using AI!**
 > Dreamify is a powerful Text-to-GIF application that generates "dreamy" animated scenes from simple text prompts.
+> Link to my website- https://dreamify-project-prompt-to-vid-m5m8.vercel.app/
+
 
 ![Dreamify Banner](https://img.shields.io/badge/Status-Active-success)
 ![Python](https://img.shields.io/badge/Backend-FastAPI-blue?logo=fastapi)
@@ -132,7 +134,13 @@ Contributions are what make the open source community such an amazing place to l
 
 ## 📄 License
 
+
 Distributed under the MIT License. See `LICENSE` for more information.
+<img width="957" height="535" alt="image" src="https://github.com/user-attachments/assets/998093fb-2fc3-4223-8ee2-50ef8b7c7c1b" />
+<img width="909" height="499" alt="image" src="https://github.com/user-attachments/assets/37e699a4-787a-4bdd-b47a-bf4be4690d32" />
+<img width="855" height="488" alt="image" src="https://github.com/user-attachments/assets/d2eacd56-78f7-4367-ba79-44cddb595c6a" />
+
+
 
 ---
 
