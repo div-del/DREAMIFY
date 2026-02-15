@@ -137,11 +137,18 @@ Contributions are what make the open source community such an amazing place to l
 
 Distributed under the MIT License. See `LICENSE` for more information.
 <img width="957" height="535" alt="image" src="https://github.com/user-attachments/assets/998093fb-2fc3-4223-8ee2-50ef8b7c7c1b" />
-<img width="909" height="499" alt="image" src="https://github.com/user-attachments/assets/37e699a4-787a-4bdd-b47a-bf4be4690d32" />
 <img width="855" height="488" alt="image" src="https://github.com/user-attachments/assets/d2eacd56-78f7-4367-ba79-44cddb595c6a" />
-https://dreamify-project-prompt-to-vid-iyi3.vercel.app/
 
-https://dreamify-project-prompt-to-vid-iyi3.vercel.app/
+
+prompt- pretty dancer
+
+
+![Demo](https://image2url.com/r2/default/gifs/1771165757708-bb61593a-7304-4ae1-a243-95c67ea46b68.gif)
+
+prompt- dark devil queen sitting on throne with crown
+
+
+![Demo](https://image2url.com/r2/default/gifs/1771165964083-2f61817c-d2f8-458c-b7b7-e13065c93538.gif)
 
 
 
