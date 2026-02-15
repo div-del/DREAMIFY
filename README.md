@@ -145,7 +145,7 @@ prompt- pretty dancer
 
 ![Demo](https://image2url.com/r2/default/gifs/1771165757708-bb61593a-7304-4ae1-a243-95c67ea46b68.gif)
 
-prompt- dark devil queen sitting on throne with crown
+prompt- dark devil queen sitting on throne with crown and horns
 
 
 ![Demo](https://image2url.com/r2/default/gifs/1771165964083-2f61817c-d2f8-458c-b7b7-e13065c93538.gif)
